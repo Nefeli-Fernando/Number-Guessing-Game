@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css"
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <style>
-        body{
-            background-color: rgb(165, 84, 240);
-        }
-    </style>
 
     <center>
     <h1 id="title">Number Guessing Game</h1>
     <p>Welcome Player!! got a good IQ? Let's put it to the test</p>
-        <input type="text" id="txtAnswer">
+        <p>Guess a number between 1 and 10:</p>
         <br><br>
         <input type="text" placeholder="Enter your answer" id="txtAnswer"><br><br>
-    <input type="button" value="Submit" onClick="submitInputOnAction()">
+        <div class="button" onClick="submitInputOnAction()">
+            <span>Submit</span>
+        </div>
         </center>
 
         
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
 </body>
 </html>
